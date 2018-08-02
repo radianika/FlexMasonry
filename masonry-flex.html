@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-size: 0;
+			background-color: darkslategray;
+		}
+
+		h1 {
+			font-size: 30px;
+			color: floralwhite;
+			text-align: center;
+			line-height: 8vw;
+		}
+
+		section {
+			display: flex;
+			flex-wrap: wrap;
+			width: 100%;
+			justify-content: center;
+			padding-left: 10px;
+
+		}
+
+		img {
+			flex: auto;
+			max-height: 300px;
+			min-width: 150px;
+			margin: 0 10px 10px 0;
+		}
+
+		@media (max-width:550px) {
+			section {
+				padding-left: 1vw;
+			}
+			img {
+				max-width: 47vw;
+				margin: 0 1vw 1vw 0;
+				max-height: 44vw;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Flex-fox Masonry</h1>
+	<section>
+		<img src="img/item-1.jpg" alt="item 1">
+		<img src="img/item-2.jpg" alt="item 2">
+		<img src="img/item-3.jpg" alt="item 3">
+		<img src="img/item-9.jpg" alt="item 9">
+		<img src="img/item-4.jpg" alt="item 4">
+		<img src="img/item-5.jpg" alt="item 5">
+		<img src="img/item-6.jpg" alt="item 6">
+		<img src="img/item-7.jpg" alt="item 7">
+		<img src="img/item-8.jpg" alt="item 8">
+		<img src="img/ibonus.jpg" alt="suka">
+
+	</section>
+</body>
+</html>
